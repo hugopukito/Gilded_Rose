@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-09-27T09:04:22" hostname="turing.local.isima.fr" time="0.029">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-10-25T09:03:46" hostname="LAPTOP-M3NOUIAS" time="0.061">
   <properties/>
-  <testcase name="sulfuras()" classname="com.gildedrose.GildedRoseTest" time="0.016"/>
-  <testcase name="testname()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="handOfRagnarsellin()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstage0()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
-  <testcase name="backstage5()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualitytest()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="conjuredlessthanzero2()" classname="com.gildedrose.GildedRoseTest" time="0.025"/>
+  <testcase name="conjuredlessthanzero()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="sulfuras()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="testname()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="handOfRagnarsellin()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstage0()" classname="com.gildedrose.GildedRoseTest" time="0.008"/>
+  <testcase name="backstage5()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="qualitytest()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="backstage10()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstage15()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualityover50()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstage15()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="qualityover50()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="qualitytest0()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <testcase name="agedBriesellin()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="toStringTest()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstage10over()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstage15over()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstage5over()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstage10over()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstage15over()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstage5over()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="agedBrie()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="conjuredmorethanzero()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

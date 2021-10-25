@@ -8,7 +8,7 @@ class GildedRose {
   }
 
   private void updateBrie(Item item) {
-    item.quality += 1;
+    item.updateQuality(1);;
   }
 
   private void updateSulfuras(Item item) {
@@ -17,10 +17,10 @@ class GildedRose {
 
   private void updateBackstage(Item item) {
     if (item.sellIn < 11) {
-      item.quality += 1;
+      item.updateQuality(1);;
     }
     if (item.sellIn < 6) {
-      item.quality += 1;
+      item.updateQuality(1);;
     }
     if (item.sellIn <= 0) {
       item.quality = -1;
@@ -29,26 +29,20 @@ class GildedRose {
 
   private void updateConjured(Item item) {
     if (item.sellIn < 0) {
-      item.quality -= 2;
+      item.updateQuality(-2);;
     }
   }
 
   private void updateFoo(Item item) {
     if (item.sellIn <= 0) {
-      item.quality -= 1;
+      item.updateQuality(-1);;
     }
   }
 
   private void updateSellQual(Item item, int qualityChange) {
     item.sellIn -= 1;
-    item.quality += qualityChange;
 
-    if (item.quality > 50) {
-      item.quality = 50;
-    }
-    if (item.quality < 0) {
-      item.quality = 0;
-    }
+    item.updateQuality(qualityChange);;
   }
 
   private void update(Item item) {
