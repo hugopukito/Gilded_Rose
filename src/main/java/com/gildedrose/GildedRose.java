@@ -28,7 +28,7 @@ class GildedRose {
   }
 
   private void updateConjured(Item item) {
-    if (item.sellIn < 0) {
+    if (item.sellIn <= 0) {
       item.updateQuality(-2);;
     }
   }
